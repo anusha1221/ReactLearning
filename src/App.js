@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Combination from './Funclass';
 import { Button } from './button';
-import { State } from './state';
+import { State, Background, Count } from './state';
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
           <Combination />
           <Button />
           <State />
+          <Background />
+          <Count />
         </div>
       </header>
     </div>
