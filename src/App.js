@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Combination from './Funclass';
-import { Button } from './button';
+import { Button } from './Button';
 import { State, Background, Count } from './state';
+import { Todo } from './Todo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <State />
           <Background />
           <Count />
+          <Todo />
         </div>
       </header>
     </div>
