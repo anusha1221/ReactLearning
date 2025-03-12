@@ -9,13 +9,18 @@ import { QueryParameter } from "./Queryparameters"
 //header navigationlink component
 function Header() {
     return (
-        <ul>
+        <ul className="nav">
             <li><Link to="/">Home</Link></li>
             <li><Link to="about">About</Link></li>
             <li><Link to="login">Login</Link></li >
             <li><Link to="user">User</Link></li >
             <li><Link to="queryparam/100/anusha?posts=5&category=admin">QueryParam</Link></li >
         </ul>
+    )
+}
+function ErrorPage() {
+    return (
+        <h1>Oops😁😁😁Page not found</h1>
     )
 }
 //Header configuring route component
@@ -33,6 +38,7 @@ export function Routing() {
                         <Route path="profile" element={<Profile />} />
                     </Route>
                     <Route path="queryparam/:id/:name" element={<QueryParameter />} />
+                    <Route path="*" element={<ErrorPage />} />
                 </Routes>
             </BrowserRouter>
         </>
