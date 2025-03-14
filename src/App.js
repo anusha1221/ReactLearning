@@ -7,7 +7,10 @@ import './App.css';
 // import Calculator from './Calculator';
 // import Keypad from './Keypad';
 // import { TestEffect, APIcall } from './TestEffect';
-import { Routing } from './Routing';
+// import { Reference } from './Reference';
+// import { Routing } from './Routing';
+// import { Customhook } from './CustomHook';
+import { UseMemo } from './useMemo';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
           <Keypad />
           <TestEffect />
           <APIcall /> */}
-          <Routing />
+          {/* <Reference />
+          <Routing /> */}
+          {/* <Customhook /> */}
+          <UseMemo />
         </div>
       </header>
     </div>
