@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import Combination from './Funclass';
 // import { Button } from './Button';
@@ -10,15 +9,18 @@ import './App.css';
 // import { Reference } from './Reference';
 // import { Routing } from './Routing';
 // import { Customhook } from './CustomHook';
-import { UseMemo } from './useMemo';
+// import { UseMemo } from './useMemo';
+// import { Parent } from './Parent';
+// import LifeCycle from './ClassLifeCycle';
+import Fromhandling from './Formhandling';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          {/* <h1>Hi Anusha welcome to React learning</h1>
-          <img src='/logo192.png' style={{ width: 100 }}></img> */}
+          {/* <h1>Hi Anusha welcome to React learning</h1> */}
+          {/* <img src='/logo192.png' alt="React Logo" style={{ width: 100 }}></img> */}
           {/* <Combination />
           <Button />
           <State />
@@ -32,7 +34,10 @@ function App() {
           {/* <Reference />
           <Routing /> */}
           {/* <Customhook /> */}
-          <UseMemo />
+          {/* <UseMemo /> */}
+          {/* <Parent /> */}
+          {/* <LifeCycle /> */}
+          <Fromhandling />
         </div>
       </header>
     </div>

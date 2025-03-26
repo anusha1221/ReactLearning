@@ -10,4 +10,5 @@ function Calculator() {
         </div>
     )
 }
+// Exporting the Calculator component as the default export
 export default Calculator

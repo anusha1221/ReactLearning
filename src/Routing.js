@@ -8,6 +8,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
 import { QueryParameter } from "./Queryparameters"
 //header navigationlink component
 function Header() {
+    // Navigation links for the header
     return (
         <ul className="nav">
             <li><Link to="/">Home</Link></li>
