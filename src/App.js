@@ -7,12 +7,15 @@ import './App.css';
 // import Keypad from './Keypad';
 // import { TestEffect, APIcall } from './TestEffect';
 // import { Reference } from './Reference';
-// import { Routing } from './Routing';
+import { Routing } from './Routing';
 // import { Customhook } from './CustomHook';
 // import { UseMemo } from './useMemo';
 // import { Parent } from './Parent';
 // import LifeCycle from './ClassLifeCycle';
-import Fromhandling from './Formhandling';
+// import Axios from './Axios';
+import { LazyLoading } from './LazyLoading';
+import { HigherOrderComponent } from './HOC';
+// import Fromhandling from './Formhandling';
 
 function App() {
   return (
@@ -31,13 +34,16 @@ function App() {
           <Keypad />
           <TestEffect />
           <APIcall /> */}
-          {/* <Reference />
-          <Routing /> */}
+          {/* <Reference />} */}
+          <Routing />
           {/* <Customhook /> */}
           {/* <UseMemo /> */}
           {/* <Parent /> */}
           {/* <LifeCycle /> */}
-          <Fromhandling />
+          {/* <Fromhandling /> */}
+          {/* <Axios /> */}
+          {/* <LazyLoading /> */}
+          <HigherOrderComponent />
         </div>
       </header>
     </div>
