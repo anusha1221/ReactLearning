@@ -1,4 +1,5 @@
 import './App.css';
+import { Portals } from './Portals';
 // import Combination from './Funclass';
 // import { Button } from './Button';
 // import { State, Background, Count } from './state';
@@ -7,14 +8,15 @@ import './App.css';
 // import Keypad from './Keypad';
 // import { TestEffect, APIcall } from './TestEffect';
 // import { Reference } from './Reference';
-import { Routing } from './Routing';
+// import { Routing } from './Routing';
 // import { Customhook } from './CustomHook';
 // import { UseMemo } from './useMemo';
 // import { Parent } from './Parent';
 // import LifeCycle from './ClassLifeCycle';
 // import Axios from './Axios';
-import { LazyLoading } from './LazyLoading';
-import { HigherOrderComponent } from './HOC';
+// import { LazyLoading } from './LazyLoading';
+// import { HigherOrderComponent, SimpleHOCExample } from './HOC';
+// import { PropsExplanation } from './Props';
 // import Fromhandling from './Formhandling';
 
 function App() {
@@ -35,7 +37,7 @@ function App() {
           <TestEffect />
           <APIcall /> */}
           {/* <Reference />} */}
-          <Routing />
+          {/* <Routing /> */}
           {/* <Customhook /> */}
           {/* <UseMemo /> */}
           {/* <Parent /> */}
@@ -43,7 +45,10 @@ function App() {
           {/* <Fromhandling /> */}
           {/* <Axios /> */}
           {/* <LazyLoading /> */}
-          <HigherOrderComponent />
+          {/* <HigherOrderComponent />
+          <SimpleHOCExample /> */}
+          {/* <PropsExplanation /> */}
+          <Portals />
         </div>
       </header>
     </div>
