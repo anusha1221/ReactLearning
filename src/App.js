@@ -1,5 +1,6 @@
+import { Tab } from 'bootstrap';
 import './App.css';
-import { Portals } from './Portals';
+// import { Portals } from './Portals';
 // import Combination from './Funclass';
 // import { Button } from './Button';
 // import { State, Background, Count } from './state';
@@ -18,25 +19,28 @@ import { Portals } from './Portals';
 // import { HigherOrderComponent, SimpleHOCExample } from './HOC';
 // import { PropsExplanation } from './Props';
 // import Fromhandling from './Formhandling';
+import CRUD from './CRUD';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          {/* <h1>Hi Anusha welcome to React learning</h1> */}
+          {/* <h1>Welcome to React APP!!!!!</h1> */}
+          {/* Uncomment the following lines to include additional components */}
           {/* <img src='/logo192.png' alt="React Logo" style={{ width: 100 }}></img> */}
-          {/* <Combination />
-          <Button />
-          <State />
-          <Background />
-          <Count />
-          <Todo />
-          <Calculator />
-          <Keypad />
-          <TestEffect />
-          <APIcall /> */}
-          {/* <Reference />} */}
+          {/* <Combination /> */}
+          {/* <Button /> */}
+          {/* <State /> */}
+          {/* <Background /> */}
+          {/* <Count /> */}
+          {/* <Todo /> */}
+          {/* <Calculator /> */}
+          {/* <Keypad /> */}
+          {/* <TestEffect /> */}
+          {/* <APIcall /> */}
+          {/* <Reference /> */}
           {/* <Routing /> */}
           {/* <Customhook /> */}
           {/* <UseMemo /> */}
@@ -45,10 +49,11 @@ function App() {
           {/* <Fromhandling /> */}
           {/* <Axios /> */}
           {/* <LazyLoading /> */}
-          {/* <HigherOrderComponent />
-          <SimpleHOCExample /> */}
+          {/* <HigherOrderComponent /> */}
+          {/* <SimpleHOCExample /> */}
           {/* <PropsExplanation /> */}
-          <Portals />
+          {/* <Portals /> */}
+          <CRUD />
         </div>
       </header>
     </div>
